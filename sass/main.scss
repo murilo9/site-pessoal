@@ -8,8 +8,10 @@ header.topbar{
   a{
     color: inherit;
     font-size: 30pt;
+    transition: font-size 1s;
     &:hover{
       color: #999;
+      font-size: 44pt;
     }
   }
 }
@@ -21,7 +23,7 @@ header.topbar{
   color: #e3e0cf;
   height: 100vh;
   background-size: cover;
-  padding: 0 10%;
+  padding: 2em 10%;
   &.vw1{
     background-image: url('img/coding.jpeg');
     h1{
@@ -51,9 +53,7 @@ header.topbar{
   }
   &.vw2{
     background-image: url('img/business.jpg');
-    align-items: center;
     justify-content: flex-start;
-    padding: 2em 10%;
     h1{
       color: #ffd369;
       font-size: 26pt;
@@ -87,6 +87,49 @@ header.topbar{
           height: 240px;
           border-radius: 20%;
         }
+      }
+    }
+  }
+}
+.vw3{
+  background-image: url('img/coding2.jpg');
+  justify-content: flex-start;
+  h1{
+    color: #ffd369;
+    font-size: 26pt;
+    margin-bottom: 1em;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2em;
+    h2{
+      font-weight: 300;
+      display: inline-block;
+      margin-bottom: 2em;
+      color: orange;
+    }
+    i{
+      transition: font-size 1s;
+    }
+    &.pri i{
+      font-size: 44pt;
+      &:hover{
+        font-size: 60pt;
+      }
+    }
+    &.sec i{
+      font-size: 30pt;
+      &:hover{
+        font-size: 44pt;
+      }
+    }
+    &.other i{
+      font-size: 22pt;
+      &:hover{
+        font-size: 30pt;
       }
     }
   }

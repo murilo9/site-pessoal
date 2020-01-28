@@ -14,9 +14,11 @@ header.topbar {
 header.topbar a {
   color: inherit;
   font-size: 30pt;
+  transition: font-size 1s;
 }
 header.topbar a:hover {
   color: #999;
+  font-size: 44pt;
 }
 
 .view {
@@ -27,7 +29,7 @@ header.topbar a:hover {
   color: #e3e0cf;
   height: 100vh;
   background-size: cover;
-  padding: 0 10%;
+  padding: 2em 10%;
 }
 .view.vw1 {
   background-image: url("img/coding.jpeg");
@@ -58,9 +60,7 @@ header.topbar a:hover {
 }
 .view.vw2 {
   background-image: url("img/business.jpg");
-  align-items: center;
   justify-content: flex-start;
-  padding: 2em 10%;
 }
 .view.vw2 h1 {
   color: #ffd369;
@@ -95,6 +95,50 @@ header.topbar a:hover {
   width: 240px;
   height: 240px;
   border-radius: 20%;
+}
+
+.vw3 {
+  background-image: url("img/coding2.jpg");
+  justify-content: flex-start;
+}
+.vw3 h1 {
+  color: #ffd369;
+  font-size: 26pt;
+  margin-bottom: 1em;
+}
+.vw3 .skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2em;
+}
+.vw3 .skills h2 {
+  font-weight: 300;
+  display: inline-block;
+  margin-bottom: 2em;
+  color: orange;
+}
+.vw3 .skills i {
+  transition: font-size 1s;
+}
+.vw3 .skills.pri i {
+  font-size: 44pt;
+}
+.vw3 .skills.pri i:hover {
+  font-size: 60pt;
+}
+.vw3 .skills.sec i {
+  font-size: 30pt;
+}
+.vw3 .skills.sec i:hover {
+  font-size: 44pt;
+}
+.vw3 .skills.other i {
+  font-size: 22pt;
+}
+.vw3 .skills.other i:hover {
+  font-size: 30pt;
 }
 
 .txt-red {
