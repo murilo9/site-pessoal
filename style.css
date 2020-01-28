@@ -111,7 +111,7 @@ header.topbar a:hover {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 .vw3 .skills h2 {
   font-weight: 300;
@@ -139,6 +139,15 @@ header.topbar a:hover {
 }
 .vw3 .skills.other i:hover {
   font-size: 30pt;
+}
+.vw3 .skills.languages h2 {
+  margin-bottom: 1em;
+}
+.vw3 .skills.languages .languages-list {
+  display: flex;
+}
+.vw3 .skills.languages .languages-list .language {
+  margin-right: 32px;
 }
 
 .txt-red {

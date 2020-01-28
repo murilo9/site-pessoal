@@ -104,7 +104,7 @@ header.topbar{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     h2{
       font-weight: 300;
       display: inline-block;
@@ -130,6 +130,17 @@ header.topbar{
       font-size: 22pt;
       &:hover{
         font-size: 30pt;
+      }
+    }
+    &.languages{
+      h2{
+        margin-bottom: 1em;
+      }
+      .languages-list{
+        display: flex;
+        .language{
+          margin-right: 32px;
+        }
       }
     }
   }
