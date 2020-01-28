@@ -1,0 +1,94 @@
+header.topbar{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: #e3e0cf;
+  margin-top: 2em;
+  a{
+    color: inherit;
+    font-size: 30pt;
+    &:hover{
+      color: #999;
+    }
+  }
+}
+.view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e3e0cf;
+  height: 100vh;
+  background-size: cover;
+  padding: 0 10%;
+  &.vw1{
+    background-image: url('img/coding.jpeg');
+    h1{
+      font-size: 28pt;
+      font-weight: 500;
+    }
+    h2{
+      font-weight: 300;
+    }
+    h3{
+      font-weight: 300;
+      color: #ffd369;
+    }
+    .img-wrapper{
+      background-image: url('img/murilo.jpg');
+      background-size: cover;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      transition: width 1s, height 1s;
+      &:hover{
+        width: 240px;
+        height: 240px;
+        border-radius: 20%;
+      }
+    }
+  }
+  &.vw2{
+    background-image: url('img/business.jpg');
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2em 10%;
+    h1{
+      color: #ffd369;
+      font-size: 26pt;
+      margin-bottom: 1em;
+    }
+    section.about{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 4em;
+      p{
+        display: inline-block;
+        width: 75%;
+      }
+      .about-image{
+        height: 200px;
+        width: 200px;
+        background-size: cover;
+        border-radius: 50%;
+        transition: width 1s, height 1s;
+        &.img-1{
+          background-image: url('img/robotica.jpg');
+
+        }
+        &.img-2{
+          background-image: url('img/coder.jpeg');
+        }
+        &:hover{
+          width: 240px;
+          height: 240px;
+          border-radius: 20%;
+        }
+      }
+    }
+  }
+}
+.txt-red{
+  color: orangered;
+}

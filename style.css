@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", "Helvetica", sans-serif;
+}
+
+header.topbar {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: #e3e0cf;
+  margin-top: 2em;
+}
+header.topbar a {
+  color: inherit;
+  font-size: 30pt;
+}
+header.topbar a:hover {
+  color: #999;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e3e0cf;
+  height: 100vh;
+  background-size: cover;
+  padding: 0 10%;
+}
+.view.vw1 {
+  background-image: url("img/coding.jpeg");
+}
+.view.vw1 h1 {
+  font-size: 28pt;
+  font-weight: 500;
+}
+.view.vw1 h2 {
+  font-weight: 300;
+}
+.view.vw1 h3 {
+  font-weight: 300;
+  color: #ffd369;
+}
+.view.vw1 .img-wrapper {
+  background-image: url("img/murilo.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  transition: width 1s, height 1s;
+}
+.view.vw1 .img-wrapper:hover {
+  width: 240px;
+  height: 240px;
+  border-radius: 20%;
+}
+.view.vw2 {
+  background-image: url("img/business.jpg");
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2em 10%;
+}
+.view.vw2 h1 {
+  color: #ffd369;
+  font-size: 26pt;
+  margin-bottom: 1em;
+}
+.view.vw2 section.about {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4em;
+}
+.view.vw2 section.about p {
+  display: inline-block;
+  width: 75%;
+}
+.view.vw2 section.about .about-image {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  border-radius: 50%;
+  transition: width 1s, height 1s;
+}
+.view.vw2 section.about .about-image.img-1 {
+  background-image: url("img/robotica.jpg");
+}
+.view.vw2 section.about .about-image.img-2 {
+  background-image: url("img/coder.jpeg");
+}
+.view.vw2 section.about .about-image:hover {
+  width: 240px;
+  height: 240px;
+  border-radius: 20%;
+}
+
+.txt-red {
+  color: orangered;
+}
+
+/*# sourceMappingURL=style.css.map */
