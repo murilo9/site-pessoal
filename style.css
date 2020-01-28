@@ -75,6 +75,8 @@ header.topbar a:hover {
 .view.vw2 section.about p {
   display: inline-block;
   width: 75%;
+  font-size: 13pt;
+  line-height: 1.5em;
 }
 .view.vw2 section.about .about-image {
   height: 200px;
