@@ -3,6 +3,10 @@ body {
   font-family: "Ubuntu", "Helvetica", sans-serif;
 }
 
+.tablet {
+  display: none;
+}
+
 header.topbar {
   position: absolute;
   display: flex;
@@ -45,6 +49,9 @@ section.view.vw1 h3 {
   font-weight: 300;
   color: #ffd369;
 }
+section.view.vw1 header.topbar-mobile {
+  display: none;
+}
 section.view.vw1 .img-wrapper {
   background-image: url("img/murilo.jpg");
   background-size: cover;
@@ -70,6 +77,7 @@ section.view.vw2 h1 {
 section.view.vw2 article.about {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 4em;
 }
 section.view.vw2 article.about p {
@@ -210,6 +218,186 @@ section.view.vw4 article.portfolio .description h3 {
 
 .txt-purple {
   color: darkmagenta;
+}
+
+@media only screen and (max-width: 1024px) {
+  section.view {
+    padding: 2em 5%;
+  }
+  section.view.vw2 article.about p {
+    width: 72%;
+    font-size: 12pt;
+  }
+  section.view.vw3 h1 {
+    font-size: 20pt;
+  }
+  section.view.vw3 h2 {
+    font-size: 16pt;
+  }
+  section.view.vw3 .skills {
+    margin-bottom: 1em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .computer.mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: initial;
+  }
+
+  section.view {
+    padding: 2em 48px;
+  }
+  section.view.vw2 article.about p {
+    font-size: 10pt;
+    width: 65%;
+    text-align: justify;
+  }
+  section.view.vw3 h1 {
+    font-size: 20pt;
+  }
+  section.view.vw3 h2 {
+    font-size: 16pt;
+  }
+  section.view.vw3 .skills {
+    margin-bottom: 1em;
+  }
+  section.view.vw4 article.portfolio {
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  section.view.vw4 article.portfolio .image {
+    padding: 0;
+    width: 50%;
+  }
+  section.view.vw4 article.portfolio .image img {
+    width: 100%;
+  }
+  section.view.vw4 article.portfolio .description {
+    padding: 0;
+    width: 50%;
+  }
+  section.view.vw4 article.portfolio .description:not(:first-child) {
+    padding-left: 2em;
+  }
+  section.view.vw4 article.portfolio p {
+    margin-top: 48px;
+    font-size: 13pt;
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 425px) {
+  header.topbar {
+    display: none;
+  }
+
+  section.view {
+    padding: 2em 32px;
+  }
+  section.view.vw1 {
+    justify-content: flex-start;
+  }
+  section.view.vw1 header.topbar-mobile {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    color: #e3e0cf;
+    padding-bottom: 2em;
+  }
+  section.view.vw1 header.topbar-mobile a {
+    color: inherit;
+    font-size: 24pt;
+    transition: font-size 1s;
+    margin: 0 8px;
+  }
+  section.view.vw1 header.topbar-mobile a:hover {
+    color: #999;
+    font-size: 44pt;
+  }
+  section.view.vw1 h1 {
+    font-size: 22pt;
+    text-align: center;
+  }
+  section.view.vw1 h2 {
+    font-size: 11pt;
+    text-align: center;
+    margin-top: 0;
+  }
+  section.view.vw1 h3 {
+    font-size: 10pt;
+    text-align: center;
+  }
+  section.view.vw2 {
+    height: auto;
+  }
+  section.view.vw2 h1 {
+    font-size: 22pt;
+  }
+  section.view.vw2 article.about {
+    justify-content: center;
+    margin: 0;
+  }
+  section.view.vw2 article.about .about-image {
+    margin-bottom: 48px;
+    width: 240px;
+    height: 240px;
+  }
+  section.view.vw2 article.about p {
+    font-size: 11pt;
+    margin-bottom: 2em;
+    width: auto;
+  }
+  section.view.vw3 h1 {
+    font-size: 18pt;
+  }
+  section.view.vw3 .skills i {
+    font-size: 28pt !important;
+  }
+  section.view.vw3 .skills.languages .languages-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  section.view.vw3 .skills.languages .languages-list .language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    margin: 0;
+  }
+  section.view.vw3 .skills.languages .languages-list .language i {
+    margin: 0;
+  }
+  section.view.vw4 h1 {
+    margin-bottom: 0;
+  }
+  section.view.vw4 article.portfolio {
+    height: auto;
+    margin: 0;
+  }
+  section.view.vw4 article.portfolio a.image {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  section.view.vw4 article.portfolio .description {
+    width: auto !important;
+    padding: 0 !important;
+  }
+  section.view.vw4 article.portfolio .description p {
+    margin-top: 0;
+  }
+  section.view.vw4 article.portfolio .description h3 {
+    font-size: 11pt;
+  }
+  section.view.vw4 article.portfolio p.tablet {
+    margin-top: 0;
+    font-size: 10pt;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
