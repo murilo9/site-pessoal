@@ -1,22 +1,22 @@
 @media only screen and (max-width: 1024px){
   section.view{
     padding: 2em 5%;
-    &.vw2{
-      article.about{
+    &.about{
+      article{
         p{
           width: 72%;
           font-size: 12pt;
         }
       }
     }
-    &.vw3{
+    &.skills{
       h1{
         font-size: 20pt;
       }
       h2{
         font-size: 16pt;
       }
-      .skills{
+      .skills-row{
         margin-bottom: 1em;
       }
     }
@@ -31,26 +31,26 @@
   }
   section.view{
     padding: 2em 48px;
-    &.vw2{
-      article.about p{
+    &.about{
+      article p{
         font-size: 10pt;
         width: 65%;
         text-align: justify;
       }
     }
-    &.vw3{
+    &.skills{
       h1{
         font-size: 20pt;
       }
       h2{
         font-size: 16pt;
       }
-      .skills{
+      .skills-row{
         margin-bottom: 1em;
       }
     }
-    &.vw4{
-      article.portfolio{
+    &.portfolio{
+      article{
         flex-wrap: wrap;
         align-content: flex-start;
         .image{
@@ -82,7 +82,7 @@
   }
   section.view{
     padding: 2em 32px;
-    &.vw1{
+    &.landing{
       justify-content: flex-start;
       header.topbar-mobile{
         display: flex;
@@ -115,12 +115,12 @@
         text-align: center;
       }
     }
-    &.vw2{
+    &.about{
       height: auto;
       h1{
         font-size: 22pt;
       }
-      article.about{
+      article{
         justify-content: center;
         margin: 0;
         .about-image{
@@ -135,11 +135,11 @@
         }
       }
     }
-    &.vw3{
+    &.skills{
       h1{
         font-size: 18pt;
       }
-      .skills{
+      .skills-row{
         i{
           font-size: 28pt !important;
         }
@@ -165,11 +165,11 @@
         }
       }
     }
-    &.vw4{
+    &.portfolio{
       h1{
         margin-bottom: 0;
       }
-      article.portfolio{
+      article{
         height: auto;
         margin: 0;
         a.image{

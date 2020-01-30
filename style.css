@@ -35,24 +35,24 @@ section.view {
   background-size: cover;
   padding: 2em 10%;
 }
-section.view.vw1 {
+section.view.landing {
   background-image: url("img/coding.jpeg");
 }
-section.view.vw1 h1 {
+section.view.landing h1 {
   font-size: 28pt;
   font-weight: 500;
 }
-section.view.vw1 h2 {
+section.view.landing h2 {
   font-weight: 300;
 }
-section.view.vw1 h3 {
+section.view.landing h3 {
   font-weight: 300;
   color: #ffd369;
 }
-section.view.vw1 header.topbar-mobile {
+section.view.landing header.topbar-mobile {
   display: none;
 }
-section.view.vw1 .img-wrapper {
+section.view.landing .img-wrapper {
   background-image: url("img/murilo.jpg");
   background-size: cover;
   border-radius: 50%;
@@ -60,155 +60,155 @@ section.view.vw1 .img-wrapper {
   height: 200px;
   transition: width 1s, height 1s;
 }
-section.view.vw1 .img-wrapper:hover {
+section.view.landing .img-wrapper:hover {
   width: 240px;
   height: 240px;
   border-radius: 20%;
 }
-section.view.vw2 {
+section.view.about {
   background-image: url("img/business.jpg");
   justify-content: flex-start;
 }
-section.view.vw2 h1 {
+section.view.about h1 {
   color: #ffd369;
   font-size: 26pt;
   margin-bottom: 1em;
 }
-section.view.vw2 article.about {
+section.view.about article {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 4em;
 }
-section.view.vw2 article.about p {
+section.view.about article p {
   display: inline-block;
   width: 75%;
   font-size: 13pt;
   line-height: 1.5em;
 }
-section.view.vw2 article.about .about-image {
+section.view.about article .about-image {
   height: 200px;
   width: 200px;
   background-size: cover;
   border-radius: 50%;
   transition: width 1s, height 1s;
 }
-section.view.vw2 article.about .about-image.img-1 {
+section.view.about article .about-image.img-1 {
   background-image: url("img/robotica.jpg");
 }
-section.view.vw2 article.about .about-image.img-2 {
+section.view.about article .about-image.img-2 {
   background-image: url("img/coder.jpeg");
 }
-section.view.vw2 article.about .about-image:hover {
+section.view.about article .about-image:hover {
   width: 240px;
   height: 240px;
   border-radius: 20%;
 }
-section.view.vw3 {
+section.view.skills {
   background-image: url("img/coding2.jpg");
   justify-content: flex-start;
 }
-section.view.vw3 h1 {
+section.view.skills h1 {
   color: #ffd369;
   font-size: 26pt;
   margin-bottom: 1em;
 }
-section.view.vw3 .skills {
+section.view.skills .skills-row {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   margin-bottom: 1.5em;
 }
-section.view.vw3 .skills h2 {
+section.view.skills .skills-row h2 {
   font-weight: 300;
   display: inline-block;
   margin-bottom: 2em;
   color: orange;
 }
-section.view.vw3 .skills i {
+section.view.skills .skills-row i {
   transition: font-size 1s;
 }
-section.view.vw3 .skills.pri i {
+section.view.skills .skills-row.pri i {
   font-size: 44pt;
 }
-section.view.vw3 .skills.pri i:hover {
+section.view.skills .skills-row.pri i:hover {
   font-size: 60pt;
 }
-section.view.vw3 .skills.sec i {
+section.view.skills .skills-row.sec i {
   font-size: 30pt;
 }
-section.view.vw3 .skills.sec i:hover {
+section.view.skills .skills-row.sec i:hover {
   font-size: 44pt;
 }
-section.view.vw3 .skills.other i {
+section.view.skills .skills-row.other i {
   font-size: 22pt;
 }
-section.view.vw3 .skills.other i:hover {
+section.view.skills .skills-row.other i:hover {
   font-size: 30pt;
 }
-section.view.vw3 .skills.languages h2 {
+section.view.skills .skills-row.languages h2 {
   margin-bottom: 1em;
 }
-section.view.vw3 .skills.languages .languages-list {
+section.view.skills .skills-row.languages .languages-list {
   display: flex;
 }
-section.view.vw3 .skills.languages .languages-list .language {
+section.view.skills .skills-row.languages .languages-list .language {
   margin-right: 32px;
 }
-section.view.vw4 {
+section.view.portfolio {
   background: #C4BA60;
   justify-content: flex-start;
   height: auto;
   color: #444;
   padding: 3em 0%;
 }
-section.view.vw4 h1 {
+section.view.portfolio h1 {
   margin-bottom: 2em;
   color: white;
 }
-section.view.vw4 article.portfolio {
+section.view.portfolio article {
   display: flex;
   margin-bottom: 48px;
   align-items: flex-start;
   height: 100vh;
   padding: 3em 5%;
 }
-section.view.vw4 article.portfolio.b {
+section.view.portfolio article.inverted {
   background: #A69F50;
 }
-section.view.vw4 article.portfolio.b .description p, section.view.vw4 article.portfolio.b .description h2, section.view.vw4 article.portfolio.b .description a {
+section.view.portfolio article.inverted .description p, section.view.portfolio article.inverted .description h2, section.view.portfolio article.inverted .description a {
   color: #333;
 }
-section.view.vw4 article.portfolio .image {
+section.view.portfolio article .image {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   padding: 0 1em;
   width: 60%;
 }
-section.view.vw4 article.portfolio .image img {
+section.view.portfolio article .image img {
   width: 85%;
 }
-section.view.vw4 article.portfolio .description {
+section.view.portfolio article .description {
   width: 40%;
   padding-left: 2em;
 }
-section.view.vw4 article.portfolio .description p {
+section.view.portfolio article .description p {
   color: #444;
   text-align: justify;
 }
-section.view.vw4 article.portfolio .description p a {
+section.view.portfolio article .description p a {
   color: #444;
   text-decoration: underline;
 }
-section.view.vw4 article.portfolio .description p a:first-child {
+section.view.portfolio article .description p a:first-child {
   margin-right: 1em;
 }
-section.view.vw4 article.portfolio .description h2 {
+section.view.portfolio article .description h2 {
   font-size: 20pt;
 }
-section.view.vw4 article.portfolio .description h3 {
+section.view.portfolio article .description h3 {
   font-size: 12pt;
 }
 
@@ -224,17 +224,17 @@ section.view.vw4 article.portfolio .description h3 {
   section.view {
     padding: 2em 5%;
   }
-  section.view.vw2 article.about p {
+  section.view.about article p {
     width: 72%;
     font-size: 12pt;
   }
-  section.view.vw3 h1 {
+  section.view.skills h1 {
     font-size: 20pt;
   }
-  section.view.vw3 h2 {
+  section.view.skills h2 {
     font-size: 16pt;
   }
-  section.view.vw3 .skills {
+  section.view.skills .skills-row {
     margin-bottom: 1em;
   }
 }
@@ -250,39 +250,39 @@ section.view.vw4 article.portfolio .description h3 {
   section.view {
     padding: 2em 48px;
   }
-  section.view.vw2 article.about p {
+  section.view.about article p {
     font-size: 10pt;
     width: 65%;
     text-align: justify;
   }
-  section.view.vw3 h1 {
+  section.view.skills h1 {
     font-size: 20pt;
   }
-  section.view.vw3 h2 {
+  section.view.skills h2 {
     font-size: 16pt;
   }
-  section.view.vw3 .skills {
+  section.view.skills .skills-row {
     margin-bottom: 1em;
   }
-  section.view.vw4 article.portfolio {
+  section.view.portfolio article {
     flex-wrap: wrap;
     align-content: flex-start;
   }
-  section.view.vw4 article.portfolio .image {
+  section.view.portfolio article .image {
     padding: 0;
     width: 50%;
   }
-  section.view.vw4 article.portfolio .image img {
+  section.view.portfolio article .image img {
     width: 100%;
   }
-  section.view.vw4 article.portfolio .description {
+  section.view.portfolio article .description {
     padding: 0;
     width: 50%;
   }
-  section.view.vw4 article.portfolio .description:not(:first-child) {
+  section.view.portfolio article .description:not(:first-child) {
     padding-left: 2em;
   }
-  section.view.vw4 article.portfolio p {
+  section.view.portfolio article p {
     margin-top: 48px;
     font-size: 13pt;
     text-align: justify;
@@ -296,73 +296,73 @@ section.view.vw4 article.portfolio .description h3 {
   section.view {
     padding: 2em 32px;
   }
-  section.view.vw1 {
+  section.view.landing {
     justify-content: flex-start;
   }
-  section.view.vw1 header.topbar-mobile {
+  section.view.landing header.topbar-mobile {
     display: flex;
     width: 100vw;
     justify-content: center;
     color: #e3e0cf;
     padding-bottom: 2em;
   }
-  section.view.vw1 header.topbar-mobile a {
+  section.view.landing header.topbar-mobile a {
     color: inherit;
     font-size: 24pt;
     transition: font-size 1s;
     margin: 0 8px;
   }
-  section.view.vw1 header.topbar-mobile a:hover {
+  section.view.landing header.topbar-mobile a:hover {
     color: #999;
     font-size: 44pt;
   }
-  section.view.vw1 h1 {
+  section.view.landing h1 {
     font-size: 22pt;
     text-align: center;
   }
-  section.view.vw1 h2 {
+  section.view.landing h2 {
     font-size: 11pt;
     text-align: center;
     margin-top: 0;
   }
-  section.view.vw1 h3 {
+  section.view.landing h3 {
     font-size: 10pt;
     text-align: center;
   }
-  section.view.vw2 {
+  section.view.about {
     height: auto;
   }
-  section.view.vw2 h1 {
+  section.view.about h1 {
     font-size: 22pt;
   }
-  section.view.vw2 article.about {
+  section.view.about article {
     justify-content: center;
     margin: 0;
   }
-  section.view.vw2 article.about .about-image {
+  section.view.about article .about-image {
     margin-bottom: 48px;
     width: 240px;
     height: 240px;
   }
-  section.view.vw2 article.about p {
+  section.view.about article p {
     font-size: 11pt;
     margin-bottom: 2em;
     width: auto;
   }
-  section.view.vw3 h1 {
+  section.view.skills h1 {
     font-size: 18pt;
   }
-  section.view.vw3 .skills i {
+  section.view.skills .skills-row i {
     font-size: 28pt !important;
   }
-  section.view.vw3 .skills.languages .languages-list {
+  section.view.skills .skills-row.languages .languages-list {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
   }
-  section.view.vw3 .skills.languages .languages-list .language {
+  section.view.skills .skills-row.languages .languages-list .language {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -370,31 +370,31 @@ section.view.vw4 article.portfolio .description h3 {
     height: 48px;
     margin: 0;
   }
-  section.view.vw3 .skills.languages .languages-list .language i {
+  section.view.skills .skills-row.languages .languages-list .language i {
     margin: 0;
   }
-  section.view.vw4 h1 {
+  section.view.portfolio h1 {
     margin-bottom: 0;
   }
-  section.view.vw4 article.portfolio {
+  section.view.portfolio article {
     height: auto;
     margin: 0;
   }
-  section.view.vw4 article.portfolio a.image {
+  section.view.portfolio article a.image {
     width: 100%;
     margin-bottom: 24px;
   }
-  section.view.vw4 article.portfolio .description {
+  section.view.portfolio article .description {
     width: auto !important;
     padding: 0 !important;
   }
-  section.view.vw4 article.portfolio .description p {
+  section.view.portfolio article .description p {
     margin-top: 0;
   }
-  section.view.vw4 article.portfolio .description h3 {
+  section.view.portfolio article .description h3 {
     font-size: 11pt;
   }
-  section.view.vw4 article.portfolio p.tablet {
+  section.view.portfolio article p.tablet {
     margin-top: 0;
     font-size: 10pt;
   }

@@ -27,7 +27,7 @@ section.view{
   height: 100vh;
   background-size: cover;
   padding: 2em 10%;
-  &.vw1{
+  &.landing{
     background-image: url('img/coding.jpeg');
     h1{
       font-size: 28pt;
@@ -57,7 +57,7 @@ section.view{
       }
     }
   }
-  &.vw2{
+  &.about{
     background-image: url('img/business.jpg');
     justify-content: flex-start;
     h1{
@@ -65,7 +65,7 @@ section.view{
       font-size: 26pt;
       margin-bottom: 1em;
     }
-    article.about{
+    article{
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -97,7 +97,7 @@ section.view{
       }
     }
   }
-  &.vw3{
+  &.skills{
     background-image: url('img/coding2.jpg');
     justify-content: flex-start;
     h1{
@@ -105,7 +105,7 @@ section.view{
       font-size: 26pt;
       margin-bottom: 1em;
     }
-    .skills{
+    .skills-row{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -151,7 +151,7 @@ section.view{
       }
     }
   }
-  &.vw4{
+  &.portfolio{
     background: #C4BA60;
     justify-content: flex-start;
     height: auto;
@@ -161,13 +161,13 @@ section.view{
       margin-bottom: 2em;
       color: white;
     }
-    article.portfolio{
+    article{
       display: flex;
       margin-bottom: 48px;
       align-items: flex-start;
       height: 100vh;
       padding: 3em 5%;
-      &.b{
+      &.inverted{
         background: #A69F50;
         .description {
           p, h2, a{
