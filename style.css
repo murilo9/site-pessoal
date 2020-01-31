@@ -11,16 +11,17 @@ header.topbar {
   position: absolute;
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 32px;
   color: #e3e0cf;
   margin-top: 2em;
 }
-header.topbar a {
+header.topbar .links a {
   color: inherit;
   font-size: 30pt;
   transition: font-size 1s;
 }
-header.topbar a:hover {
+header.topbar .links a:hover {
   color: #999;
   font-size: 44pt;
 }
